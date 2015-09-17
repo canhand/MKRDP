@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.themkrworld.mkr_dp.MainActivity" >
+
+    <!-- 160mkrdp -->
+
+    <View
+        android:id="@+id/id_160_1"
+        android:layout_width="@dimen/mkrdp_160"
+        android:layout_height="@dimen/mkrdp_160"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#000000" />
+
+    <!-- 80mkrdp -->
+
+    <View
+        android:id="@+id/id_80_1"
+        android:layout_width="@dimen/mkrdp_80"
+        android:layout_height="@dimen/mkrdp_80"
+        android:layout_alignLeft="@+id/id_160_1"
+        android:layout_alignTop="@+id/id_160_1"
+        android:background="#FF0000" />
+
+    <View
+        android:id="@+id/id_80_2"
+        android:layout_width="@dimen/mkrdp_80"
+        android:layout_height="@dimen/mkrdp_80"
+        android:layout_alignBottom="@+id/id_160_1"
+        android:layout_alignRight="@+id/id_160_1"
+        android:background="#FF0000" />
+
+    <!-- 80mkrdp -->
+
+    <View
+        android:id="@+id/id_40_1"
+        android:layout_width="@dimen/mkrdp_40"
+        android:layout_height="@dimen/mkrdp_40"
+        android:layout_alignLeft="@+id/id_80_1"
+        android:layout_alignTop="@+id/id_80_1"
+        android:background="#00FF00" />
+
+    <View
+        android:id="@+id/id_40_2"
+        android:layout_width="@dimen/mkrdp_40"
+        android:layout_height="@dimen/mkrdp_40"
+        android:layout_alignBottom="@+id/id_80_1"
+        android:layout_alignRight="@+id/id_80_1"
+        android:background="#00FF00" />
+
+    <!-- 20mkrdp -->
+
+    <View
+        android:id="@+id/id_20_1"
+        android:layout_width="@dimen/mkrdp_20"
+        android:layout_height="@dimen/mkrdp_20"
+        android:layout_alignLeft="@+id/id_40_1"
+        android:layout_alignTop="@+id/id_40_1"
+        android:background="#0000FF" />
+
+    <View
+        android:id="@+id/id_20_2"
+        android:layout_width="@dimen/mkrdp_20"
+        android:layout_height="@dimen/mkrdp_20"
+        android:layout_alignBottom="@+id/id_40_1"
+        android:layout_alignRight="@+id/id_40_1"
+        android:background="#0000FF" />
+
+    <!-- 10mkrdp -->
+
+    <View
+        android:id="@+id/id_10_1"
+        android:layout_width="@dimen/mkrdp_10"
+        android:layout_height="@dimen/mkrdp_10"
+        android:layout_alignLeft="@+id/id_20_1"
+        android:layout_alignTop="@+id/id_20_1"
+        android:background="#FF00FF" />
+
+    <View
+        android:id="@+id/id_10_2"
+        android:layout_width="@dimen/mkrdp_10"
+        android:layout_height="@dimen/mkrdp_10"
+        android:layout_alignBottom="@+id/id_20_1"
+        android:layout_alignRight="@+id/id_20_1"
+        android:background="#FF00FF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="I AM THE-MKR"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/mkrdp_20"
+        android:textStyle="bold" />
+
+</RelativeLayout>

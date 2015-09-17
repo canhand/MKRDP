@@ -1,0 +1,34 @@
+package com.themkrworld.mkrdpcreator;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+
+public class Main {
+	public static void main(String[] args) {
+		// INITIALIZE PARENT PATH - PATHE TO THE RES
+		String parentPath = "/home/delhivery/DP_TESTING/MKR_DP/res";
+		File parentFile = new File(parentPath);
+		if (!parentFile.exists()) {
+			try {
+				parentFile.createNewFile();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		if (!parentFile.isDirectory()) {
+			parentFile.mkdir();
+		}
+		// CREATE FILE
+		ArrayList<Value> values = new ArrayList<>();
+		values.add(new Value(parentPath, "values", 1));
+		for (float i = 160; i <= 980; i += 20) {
+			values.add(new Value(parentPath, "values-sw" + ((int) i) + "dp", (i / 160F)));
+		}
+		// CREATE FILE
+		for (Value value : values) {
+			System.out.println("Main.main(" + values.size() + ") " + value.getFileName());
+			value.writeAndSaveData();
+		}
+	}
+}
