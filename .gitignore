@@ -8,7 +8,7 @@
 
 .org.eclipse.jdt.core.external.folders
 .org.eclipse.jdt.core.external.folders/.project
-.metadata
+.metadata/*
 .metadata/.plugins/
 .metadata/.plugins
 .recommenders/

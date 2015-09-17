@@ -1,6 +1,0 @@
-INDEX VERSION 1.126+/home/mkr/WORK_SPACE/MKRDP/.metadata/.plugins/org.eclipse.jdt.core
-2955535420.index
-3940301255.index
-353034588.index
-287926140.index
-3253113776.index

@@ -8,7 +8,7 @@
 
 .org.eclipse.jdt.core.external.folders
 .org.eclipse.jdt.core.external.folders/.project
-.metadata
+.metadata/*
 .metadata/.plugins/
 .metadata/.plugins
 .recommenders/
@@ -20,12 +20,12 @@
 # *library
 
 
-*Collage/bin/
-*Collage/gen/
-*Collage/.classpath
-*NativeEffect/bin/
-*NativeEffect/gen/
-*NativeEffect/.classpath
+*MKR_DP/bin/
+*MKR_DP/gen/
+*MKR_DP/.classpath
+*Sample MKRDP/bin/
+*Sample MKRDP/gen/
+*Sample MKRDP/.classpath
 
 # Gradle files
 build/
