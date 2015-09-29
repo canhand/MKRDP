@@ -23,9 +23,6 @@
 *MKR_DP/bin/
 *MKR_DP/gen/
 *MKR_DP/.classpath
-*Sample MKRDP/bin/
-*Sample MKRDP/gen/
-*Sample MKRDP/.classpath
 
 # Gradle files
 build/
